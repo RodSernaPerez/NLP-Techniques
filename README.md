@@ -105,7 +105,7 @@ Measurement of test's accuracy. Consideres the precission (number of correct pos
 
 F1 = 2 * (p*r)/(p+r)
 
-[Description in wikipedia](https://en.wikipedia.org/wiki/F1_score)
+[Description in Wikipedia](https://en.wikipedia.org/wiki/F1_score)
 
 ## Benchmarks
 
@@ -124,7 +124,7 @@ Multi-Task Benchmark and Analysis Platform for Natural Language Understanding
 
 [Original paper](https://arxiv.org/pdf/1804.07461.pdf) (Sep, 2018)
 
-- Single-Sentence tasks: guess if sentence is gramatically right, sentiment guessing.
-- Similarity tasks: similarity among sentences
-- Inference tasks: the task is to predicting whether a premise entails the hypothesis given the premise sentence and the hypothesis sentence, question answering,  [Recognizing Textual Entailment (RTE)](https://en.wikipedia.org/wiki/Textual_entailment), Correference Resolution
+- ***Single-Sentence tasks***: guess if sentence is gramatically right, sentiment guessing.
+- ***Similarity tasks***: similarity among sentences
+- ***Inference tasks***: the task is to predicting whether a premise entails the hypothesis given the premise sentence and the hypothesis sentence, question answering,  [Recognizing Textual Entailment (RTE)](https://en.wikipedia.org/wiki/Textual_entailment), Correference Resolution
 
