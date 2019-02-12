@@ -45,11 +45,32 @@ Combination of RNNs and Transformer to deal with the problem of long dependences
 
 ## Word Embeddings
 
+Deep vector representations of words. 
+They can be contextual or character based:
+- Contextual: if the information of the surrounding words is used. Can be CBOW architecture if predicts the current word based on the
+context or Skip-gram if predicts surrounding words given the current word.
+- Character: if the vectors are computed based on the characters that form the word.
+
+
 ### Word2Vec 
+
+- [Original paper](https://arxiv.org/pdf/1301.3781.pdf)
+- [Official site](https://code.google.com/archive/p/word2vec/)
+- [English pretained model](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing)
+- Very easy to compute and manage with [Gensim library](https://radimrehurek.com/gensim/) for python. 
 
 ### Glove
 
+GloVe is modeled to do dimensionality reduction in the co-occurrence counts matrix.
+
+- [Official site and pretrained models](https://nlp.stanford.edu/projects/glove/)
+
 ### FastText 
+
+Vector generation based on characters of the word. 
+
+- [Tutorial](https://towardsdatascience.com/fasttext-under-the-hood-11efc57b2b3)
+- Very easy to compute and manage with [Gensim library](https://radimrehurek.com/gensim/) for python. 
 
 ### ELMo
 ELMo is a deep contextualized word representation that models both (1) complex characteristics of word use (e.g., syntax and semantics), and (2) how these uses vary across linguistic contexts (i.e., to model polysemy).  It is character-based.
