@@ -72,7 +72,7 @@ Vector generation based on characters of the word.
 - [Tutorial](https://towardsdatascience.com/fasttext-under-the-hood-11efc57b2b3)
 - Very easy to compute and manage with [Gensim library](https://radimrehurek.com/gensim/) for python. 
 
-### ELMo
+### Embeddings from Language Models (ELMo)
 ELMo is a deep contextualized word representation that models both (1) complex characteristics of word use (e.g., syntax and semantics), and (2) how these uses vary across linguistic contexts (i.e., to model polysemy).  It is character-based.
 
 - [Official site](https://allennlp.org/elmo)
@@ -86,7 +86,7 @@ ELMo is a deep contextualized word representation that models both (1) complex c
 
 ## Language models
 
-### BERT
+### Bidirectional Encoder Representations from Transformers (BERT)
 
 Pre-trained models for knowledge transfering that can be used with any purporse with only adding new layers. 
 
