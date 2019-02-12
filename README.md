@@ -111,7 +111,8 @@ F1 = 2 * (p*r)/(p+r)
 
 ### Collobert
 One of the first benchmarks for NLP.
-[Original paper](http://www.jmlr.org/papers/volume12/collobert11a/collobert11a.pdf)
+
+[Original paper](http://www.jmlr.org/papers/volume12/collobert11a/collobert11a.pdf)(2011)
 
 - ***Part-Of-Speech Tagging*** (POS): labeling each word with a syntactic role
 - ***Chunking***: labeling segments of a sentence with syntactic constituents such as noun or verb phrases.
