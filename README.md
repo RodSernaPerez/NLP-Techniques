@@ -16,14 +16,14 @@ Has problems to deal with long dependences.
 
 Improvement of RNN that better deals with long dependences.
 
-- [Original paper](http://www.bioinf.jku.at/publications/older/2604.pdf)
+- [Original paper](http://www.bioinf.jku.at/publications/older/2604.pdf) (1997)
 - Implemented in [Keras.layers](https://keras.io/layers/recurrent/) .
 
 ### Attention
 
 Attention mechanisms in neural networks serve to orient perception as well as memory access. Very useful for some applications such as translation and other sequence generation problems.
 
-- [Original paper](https://arxiv.org/pdf/1512.08756.pdf)
+- [Original paper](https://arxiv.org/pdf/1512.08756.pdf) (Sep, 2016)
 - [Tutorial](https://skymind.ai/wiki/attention-mechanism-memory-network)
 - Implementation as a keras layer in this project, obtained from [here](https://www.kaggle.com/qqgeogor/keras-lstm-attention-glove840b-lb-0-043#L51)
 
@@ -33,7 +33,7 @@ Architecture similar to Sequence-to-Sequence that uses attention. Based on encod
 
 It gives better results than RNN and CNN networks, but could have problems to deal with long dependences.
 
-- [Original paper](https://arxiv.org/pdf/1706.03762.pdf)
+- [Original paper](https://arxiv.org/pdf/1706.03762.pdf) (Dec, 2017)
 - [Official site](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html)
 - [Tutorial](https://medium.com/@adityathiruvengadam/transformer-architecture-attention-is-all-you-need-aeccd9f50d09)
 - [Keras implementation](https://github.com/CyberZHG/keras-transformer)
@@ -41,7 +41,7 @@ It gives better results than RNN and CNN networks, but could have problems to de
 ### Transformer XL
 
 Combination of RNNs and Transformer to deal with the problem of long dependences. Current state of the art.
-- [Original paper](https://arxiv.org/abs/1901.02860)
+- [Original paper](https://arxiv.org/abs/1901.02860) (Jan, 2019)
 - [Official site](https://ai.googleblog.com/2019/01/transformer-xl-unleashing-potential-of.html)
 - [Tutorial](https://towardsdatascience.com/transformer-xl-explained-combining-transformers-and-rnns-into-a-state-of-the-art-language-model-c0cfe9e5a924)
 - Tensorflow & PyTorch implementations [here](https://github.com/kimiyoung/transformer-xl)
@@ -50,28 +50,33 @@ Combination of RNNs and Transformer to deal with the problem of long dependences
 
 Deep vector representations of words. 
 They can be contextual or character based:
-- **Contextual**: if the information of the surrounding words is used. Can be CBOW architecture if predicts the current word based on the
-context or Skip-gram if predicts surrounding words given the current word.
+- **Contextual**: if the information of the surrounding words is used. 
 - **Character**: if the vectors are computed based on the characters that form the word.
 
 
 ### Word2Vec 
 
-- [Original paper](https://arxiv.org/pdf/1301.3781.pdf)
+Contextual based. Can be CBOW architecture if predicts the current word based on the context or Skip-gram if predicts surrounding words given the current word.
+
+Developed by Google.
+- [Original paper](https://arxiv.org/pdf/1301.3781.pdf) (Sep, 2013)
 - [Official site](https://code.google.com/archive/p/word2vec/)
 - [English pretained model](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing)
 - Very easy to compute and manage with [Gensim library](https://radimrehurek.com/gensim/) for python. 
 
 ### Glove
 
-GloVe is modeled to do dimensionality reduction in the co-occurrence counts matrix.
+Contextual based. GloVe is modeled to do dimensionality reduction in the co-occurrence counts matrix.
 
+Developed by Standford.
 - [Official site and pretrained models](https://nlp.stanford.edu/projects/glove/)
+- [Original paper](https://nlp.stanford.edu/pubs/glove.pdf)
 
 ### FastText 
 
 Vector generation based on characters of the word. 
 
+Developed by Facebook.
 - [Tutorial](https://towardsdatascience.com/fasttext-under-the-hood-11efc57b2b3)
 - Very easy to compute and manage with [Gensim library](https://radimrehurek.com/gensim/) for python. 
 
@@ -79,7 +84,7 @@ Vector generation based on characters of the word.
 ELMo is a deep contextualized word representation that models both (1) complex characteristics of word use (e.g., syntax and semantics), and (2) how these uses vary across linguistic contexts (i.e., to model polysemy).  It is character-based.
 
 - [Official site](https://allennlp.org/elmo)
-
+- [Original paper](https://arxiv.org/pdf/1802.05365.pdf) (Mar, 2018)
 - [Pre-trained models](https://github.com/HIT-SCIR/ELMoForManyLangs)
 
 - [Tutorial](https://medium.com/huggingface/universal-word-sentence-embeddings-ce48ddc8fc3a)
@@ -93,7 +98,7 @@ ELMo is a deep contextualized word representation that models both (1) complex c
 
 Pre-trained models for knowledge transfering that can be used with any purporse with only adding new layers. 
 
-- [Original paper](https://arxiv.org/pdf/1810.04805.pdf)
+- [Original paper](https://arxiv.org/pdf/1810.04805.pdf) (Oct, 2018)
 
 - [Official site](https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html)
 
