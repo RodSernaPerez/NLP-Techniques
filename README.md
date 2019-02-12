@@ -82,6 +82,8 @@ ELMo is a deep contextualized word representation that models both (1) complex c
 - [Tutorial](https://medium.com/huggingface/universal-word-sentence-embeddings-ce48ddc8fc3a)
 
 
+**Extra**: different types and sizes of word embeddings for spanish can be found [here](https://github.com/uchile-nlp/spanish-word-embeddings)
+
 ## Language models
 
 ### BERT
