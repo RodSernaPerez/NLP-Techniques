@@ -16,4 +16,4 @@ Official site: https://allennlp.org/elmo
 
 Pre-trained models: https://github.com/HIT-SCIR/ELMoForManyLangs
 
-
+Tutorial: https://medium.com/huggingface/universal-word-sentence-embeddings-ce48ddc8fc3a
