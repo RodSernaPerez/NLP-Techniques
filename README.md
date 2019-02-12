@@ -1,5 +1,5 @@
 # Language Artificial Intelligence Tools and Techniques
-Description of Natural Language Processing and Natural Language Understanding tools and techniques.
+Description of ***Natural Language Processing*** and ***Natural Language Understanding*** tools and techniques.
 
 ## Neural Networks
 
