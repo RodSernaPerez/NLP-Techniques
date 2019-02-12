@@ -14,12 +14,14 @@ Has problems to deal with long dependences.
 
 ### Long Short Term Memory (LSTM)
 
-Improvement of RNN that better deals with long dependecnes.
+Improvement of RNN that better deals with long dependences.
 
 - [Original paper](http://www.bioinf.jku.at/publications/older/2604.pdf)
 - Implemented in [Keras.layers](https://keras.io/layers/recurrent/) .
 
 ### Attention
+
+Attention mechanisms in neural networks serve to orient perception as well as memory access. Very useful for some applications such as translation and other sequence generation problems.
 
 - [Original paper](https://arxiv.org/pdf/1512.08756.pdf)
 - [Tutorial](https://skymind.ai/wiki/attention-mechanism-memory-network)
