@@ -47,9 +47,9 @@ Combination of RNNs and Transformer to deal with the problem of long dependences
 
 Deep vector representations of words. 
 They can be contextual or character based:
-- Contextual: if the information of the surrounding words is used. Can be CBOW architecture if predicts the current word based on the
+- **Contextual**: if the information of the surrounding words is used. Can be CBOW architecture if predicts the current word based on the
 context or Skip-gram if predicts surrounding words given the current word.
-- Character: if the vectors are computed based on the characters that form the word.
+- **Character**: if the vectors are computed based on the characters that form the word.
 
 
 ### Word2Vec 
