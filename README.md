@@ -97,3 +97,34 @@ Pre-trained models for knowledge transfering that can be used with any purporse 
 - [Pre-trained models](https://github.com/google-research/bert)
 
 - [Tutorial](https://medium.com/huggingface/universal-word-sentence-embeddings-ce48ddc8fc3a)
+
+## Measurements
+
+### F1 score
+Measurement of test's accuracy. Consideres the precission (number of correct positive results divided by total) and recall (number of positive results divided by number of all positive results returned by clasiffier).
+
+F1 = 2 * (p*r)/(p+r)
+
+[Description in wikipedia](https://en.wikipedia.org/wiki/F1_score)
+
+## Benchmarks
+
+### Collobert
+One of the first benchmarks for NLP.
+[Original paper](http://www.jmlr.org/papers/volume12/collobert11a/collobert11a.pdf)
+
+- ***Part-Of-Speech Tagging (POS)***: labeling each word with a syntactic role
+- ***Chunking***: labeling segments of a sentence with syntactic constituents such as noun or verb phrases.
+- ***Named Entity Recognition (NER)***: labels atomic elements in the sentence into categories such as “PERSON” or “LOCATION”.
+- ***Semantic Role Labeling (SRL)***:  aims at giving a semantic role to a syntactic constituent of a sentence
+
+
+### GLUE 
+Multi-Task Benchmark and Analysis Platform for Natural Language Understanding
+
+[Original paper](https://arxiv.org/pdf/1804.07461.pdf) (Sep, 2018)
+
+- Single-Sentence tasks: guess if sentence is gramatically right, sentiment guessing.
+- Similarity tasks: similarity among sentences
+- Inference tasks: the task is to predicting whether a premise entails the hypothesis given the premise sentence and the hypothesis sentence, question answering,  [Recognizing Textual Entailment (RTE)](https://en.wikipedia.org/wiki/Textual_entailment), Correference Resolution
+
