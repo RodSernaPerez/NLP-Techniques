@@ -1,5 +1,5 @@
-# NLPutils
-Description of NLP tools
+# NLP techniques
+Description of Natural Language Processign and Natural Language Understanding tools and techniques.
 
 ## Neural Networks
 
