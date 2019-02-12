@@ -3,7 +3,14 @@ Description of NLP tools
 
 ## Neural Networks
 
-### RNN
+### Recurrent Neural Network (RNN)
+
+Neural networks to deal with temporal variables.
+
+Has problems to deal with long dependences.
+
+- Tutorial: https://www.analyticsvidhya.com/blog/2017/12/introduction-to-recurrent-neural-networks/
+- Implemented in Keras.layers .
 
 ### LSTM
 
@@ -54,6 +61,8 @@ ELMo is a deep contextualized word representation that models both (1) complex c
 ### BERT
 
 Pre-trained models for knowledge transfering that can be used with any purporse with only adding new layers. 
+
+- Original paper: https://arxiv.org/pdf/1810.04805.pdf
 
 - Official site: https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html
 
