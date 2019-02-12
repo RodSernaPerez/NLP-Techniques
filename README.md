@@ -9,10 +9,16 @@ Neural networks to deal with temporal variables.
 
 Has problems to deal with long dependences.
 
-- Tutorial: https://www.analyticsvidhya.com/blog/2017/12/introduction-to-recurrent-neural-networks/
-- Implemented in Keras.layers .
+
+- [Tutorial](https://www.analyticsvidhya.com/blog/2017/12/introduction-to-recurrent-neural-networks/)
+- Implemented in [Keras.layers](https://keras.io/layers/recurrent/) .
 
 ### LSTM
+
+Improvement of RNN that better deals with long dependecnes.
+
+- [Original paper](http://www.bioinf.jku.at/publications/older/2604.pdf)
+- Implemented in [Keras.layers](https://keras.io/layers/recurrent/) .
 
 ### Attention
 
