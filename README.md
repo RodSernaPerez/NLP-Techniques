@@ -32,7 +32,7 @@ It gives better results than RNN and CNN networks, but could have problems to de
 
 - [Original paper](https://arxiv.org/pdf/1706.03762.pdf)
 - [Official site](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html)
-- [Tutorial] (https://medium.com/@adityathiruvengadam/transformer-architecture-attention-is-all-you-need-aeccd9f50d09)
+- [Tutorial](https://medium.com/@adityathiruvengadam/transformer-architecture-attention-is-all-you-need-aeccd9f50d09)
 - [Keras implementation](https://github.com/CyberZHG/keras-transformer)
 
 ### Transformer XL
