@@ -10,7 +10,7 @@ Description of NLP tools
 ### FastText 
 
 ### ELMo
-ELMo is a deep contextualized word representation that models both (1) complex characteristics of word use (e.g., syntax and semantics), and (2) how these uses vary across linguistic contexts (i.e., to model polysemy).  
+ELMo is a deep contextualized word representation that models both (1) complex characteristics of word use (e.g., syntax and semantics), and (2) how these uses vary across linguistic contexts (i.e., to model polysemy).  It is character-based.
 
 Official site: https://allennlp.org/elmo 
 
