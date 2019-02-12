@@ -29,6 +29,7 @@ Combination of RNNs and Transformer to deal with the problem of long dependences
 - Original paper: https://arxiv.org/abs/1901.02860
 - Official site: https://ai.googleblog.com/2019/01/transformer-xl-unleashing-potential-of.html
 - Tutorial: https://towardsdatascience.com/transformer-xl-explained-combining-transformers-and-rnns-into-a-state-of-the-art-language-model-c0cfe9e5a924
+- Tensorflow & PyTorch implementation: https://github.com/kimiyoung/transformer-xl
 
 ## Word Embeddings
 
