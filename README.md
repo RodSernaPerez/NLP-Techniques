@@ -129,3 +129,10 @@ Multi-Task Benchmark and Analysis Platform for Natural Language Understanding
 - ***Similarity tasks***: similarity among sentences
 - ***Inference tasks***: the task is to predicting whether a premise entails the hypothesis given the premise sentence and the hypothesis sentence, question answering,  [Recognizing Textual Entailment (RTE)](https://en.wikipedia.org/wiki/Textual_entailment), Correference Resolution
 
+
+## Standard grammatical annotations
+### CoNLL-U Format
+Modelling language for morpholical and syntactic dependences.
+
+[Description](https://universaldependencies.org/format.html)
+
