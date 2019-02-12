@@ -1,5 +1,5 @@
 # Language Artificial Intelligence Tools and Techniques
-Description of Natural Language Processign and Natural Language Understanding tools and techniques.
+Description of Natural Language Processing and Natural Language Understanding tools and techniques.
 
 ## Neural Networks
 
@@ -22,6 +22,7 @@ Improvement of RNN that better deals with long dependecnes.
 ### Attention
 
 - [Original paper](https://arxiv.org/pdf/1512.08756.pdf)
+- [Tutorial](https://skymind.ai/wiki/attention-mechanism-memory-network)
 - Implementation as a keras layer in this project, obtained from [here](https://www.kaggle.com/qqgeogor/keras-lstm-attention-glove840b-lb-0-043#L51)
 
 ### Transformer
