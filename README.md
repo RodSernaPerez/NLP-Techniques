@@ -21,6 +21,8 @@ ELMo is a deep contextualized word representation that models both (1) complex c
 
 ## Language models
 
+### BERT
+
 Pre-trained models for knowledge transfering that can be used with any purporse with only adding new layers. 
 
 - Official site: https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html
