@@ -113,10 +113,10 @@ F1 = 2 * (p*r)/(p+r)
 One of the first benchmarks for NLP.
 [Original paper](http://www.jmlr.org/papers/volume12/collobert11a/collobert11a.pdf)
 
-- ***Part-Of-Speech Tagging (POS)***: labeling each word with a syntactic role
+- ***Part-Of-Speech Tagging*** (POS): labeling each word with a syntactic role
 - ***Chunking***: labeling segments of a sentence with syntactic constituents such as noun or verb phrases.
-- ***Named Entity Recognition (NER)***: labels atomic elements in the sentence into categories such as “PERSON” or “LOCATION”.
-- ***Semantic Role Labeling (SRL)***:  aims at giving a semantic role to a syntactic constituent of a sentence
+- ***Named Entity Recognition*** (NER): labels atomic elements in the sentence into categories such as “PERSON” or “LOCATION”.
+- ***Semantic Role Labeling*** (SRL):  aims at giving a semantic role to a syntactic constituent of a sentence
 
 
 ### GLUE 
